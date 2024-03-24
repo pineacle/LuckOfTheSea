@@ -1,0 +1,63 @@
+guis:
+
+  augments_list:
+    title: "Augments Available"
+    rows: 6 # (1-6)
+
+  codex_main_menu:
+    title: "Fish Directory"
+    rows: 1 # (1-6)
+    buttons:
+      common:
+        material: BOOK
+        name: "&a&lCOMMON"
+        modelData: 0
+        slot: 2
+        glow: false
+        lore:
+          - "&7View all &a&lCOMMON &7fish."
+      trophy:
+        material: BOOK
+        name: "&6&lTROPHY"
+        modeData: 0
+        slot: 3
+        glow: false
+        lore:
+          - "&7View all &6&lTROPHY &7fish."
+      unique:
+        material: BOOK
+        name: "&d&lUNIQUE"
+        modelData: 0
+        slot: 4
+        glow: false
+        lore:
+          - "&7View all &d&lUNIQUE &7fish."
+      ancient:
+        material: BOOK
+        name: "&c&lANCIENT"
+        modeData: 0
+        slot: 5
+        glow: false
+        lore:
+          - "&7View all &c&lANCIENT &7fish."
+      mythical:
+        material: BOOK
+        name: "&5&lMYTHICAL"
+        modeData: 0
+        slot: 6
+        glow: false
+        lore:
+          - "&7View all &5&lMYTHICAL &7fish."
+
+  codex:
+    title: "Fish Directory"
+    rows: 2 # (1-5)
+    buttons:
+      next_page:
+        material: MAP
+        name: "&aNext Page"
+        modelData: 0
+      prev_page:
+        material: MAP
+        name: "&cPrevious Page"
+        modeData: 0

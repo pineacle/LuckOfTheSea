@@ -1,0 +1,12 @@
+name: LuckOfTheSea
+version: '${project.version}'
+author: pineacle
+main: me.pineacle.luckofthesea.LuckOfTheSeaPlugin
+api-version: 1.20
+description: Become the greatest fisher!
+depend:
+  - NBTAPI
+commands:
+  luckofthesea:
+    description: Base command for the plugin LuckOfTheSea
+    aliases: [lots, luck, fish]

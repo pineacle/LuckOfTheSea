@@ -1,0 +1,43 @@
+# While you're not able to change the default augments, you can edit how they appear in inventories and in item form.
+# If you know how to code, you can create your own Augments using our API!
+
+augments:
+
+  stormchaser: # Catch more fish in the rain
+    name: "&b&lSTORM CHASER"
+    material: WATER_BUCKET
+    slot: 3
+    description:
+      - "&7It's raining cats and dogs.. and fish"
+      - " "
+      - "&b&lINFO"
+      - "&7Chance to catch more fish while it's raining!"
+      - " "
+      - "&b&lREQUIREMENTS"
+      - "&b- &3Fishing Level: &720"
+      - "&b- &3Scales: &710,000"
+      - " "
+      - "&b&lINGREDIENTS"
+      - "&710x Sticks"
+    required_level: 20
+    cost: 10000
+    max_level: 3
+    ingrediants:
+      STICK: 10 # Material: Amount
+
+  xray:
+    name: "&cX-Ray Vision"
+    material: ENDER_EYE
+    slot: 4
+    description:
+      - "&7I can see through walls!"
+      - " "
+      - "&bINFO"
+      - "&7Cast your rod in the green circle on the water to"
+      - "&7increase your chance to catch a rare fish!"
+      - " "
+      - "&b&lINGREDIENTS"
+      - "&71x Water Bucket"
+    required_level: 50
+    cost: 15000
+    max_level: 1

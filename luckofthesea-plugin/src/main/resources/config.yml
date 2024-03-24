@@ -1,0 +1,13 @@
+general:
+  language: en_US
+  disable-off-hand-fishing: true
+  fishing-in-creative: false # Be able to fish in creative mode
+  disable-treasure: false # Disable catching items other than fish
+  vanilla-fish: false # Do you want to be able to catch vanilla fish?
+  disabled-worlds: # Where should fishing be disabled
+    - "custom-world"
+
+tournaments:
+  disable-mythical-minigame: false # This may lead to players utilizing mythical baits only in tournaments, but It's here just in case.
+
+version: 1

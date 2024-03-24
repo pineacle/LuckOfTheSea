@@ -1,0 +1,51 @@
+fish:
+
+  defaults:
+    prices: # Default prices of price. Subject to change if player uses scale
+      common: 100.00
+      trophy: 500.00
+      unique: 1000.00
+      ancient: 5000.00
+      mythical: 10000.00
+    probability: # Chances of catching each tier of fish
+      common: 50
+      trophy: 15
+      unique: 5
+      ancient: 1
+      mythical: 0.5
+    lore:
+      common:
+        - "%catch_phrase%"
+        - " "
+        - "&eInformation:"
+        - "&7Tier: &e%tier%"
+        - "&7Price: &e$%price%"
+        - "&7Weight: &e%weight%"
+        - "&7Biomes:"
+        - " &8- &e%biomes%"
+
+# Here is where you add/remove custom fish
+  sunfish: # must be match identifier
+    identifier: "sunfish" # must match above key
+    tier: "COMMON" # Options: COMMON, TROPHY, UNIQUE, ANCIENT, MYTHICAL
+    name: "&eSunfish"
+    catch_phrase: "&7Don't look right at it!"
+    material: COD
+    model_data: 0
+    first_caught_by: ""
+    lore: # Remove this section if you want to use default tier description as seen in defaults section of this file, otherwise this will override the default description.
+      - "%catch_phrase%"
+      - " "
+      - "&eInformation:"
+      - "&7Tier: &e%tier%"
+      - "&7Price: &e$%price%"
+      - "&7Weight: &e%weight%"
+      - "&7Biomes:"
+      - "  &8- &e%biomes%"
+    biomes: # Biomes where this fish can be caught. Some augments may allow this fish to be caught elsewhere. List of options: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+      - "RIVER"
+      - "SAVANNA"
+      - "SNOWY_BEACH"
+    satisfy_hunger_when_eaten: true # If eaten do you to feed the player like a normal fish?
+    eat-commands: # Commands to run when the player eats the fish, use %player% for the player's name.
+      - "heal %player%"

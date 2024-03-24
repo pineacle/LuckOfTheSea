@@ -1,0 +1,4 @@
+name: LuckOfTheSea
+version: '${project.version}'
+main: me.pineacle.luckofthesea.LuckOfTheSea
+api-version: 1.20
